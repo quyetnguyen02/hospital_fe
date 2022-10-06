@@ -1,0 +1,268 @@
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.header-top {
+    padding: 10px 0;
+    background-color: #000;
+}
+
+.header-top .logo {
+    width: 20%;
+    margin-right: 12px;
+}
+
+.header-top .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-mid {
+    width: 70%;
+    margin-right: 12px;
+}
+
+.form-input {
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 3px;
+    background: #fff;
+    width: 350px;
+    position: relative;
+}
+
+.input-search {
+    float: left;
+    width: calc(100% - 60px);
+    height: 35px;
+}
+
+.input-search .text-search {
+    border: 0;
+    padding: 0 5px 0 10px;
+    width: calc(100% - 40px);
+    height: 100%;
+    outline: none;
+    color: #999;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.submit-search {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    width: 48px;
+    height: 41px;
+    font-weight: 300;
+    background: #ff9300;
+}
+
+.submit-search i {
+    width: 30px;
+    height: 30px;
+}
+
+.header-mid .list-header {
+    width: calc(100% - 350px);
+    color: #fff;
+    margin-left: 12px;
+}
+
+.list-header .item {
+    width: calc(100% / 4);
+    cursor: pointer;
+}
+
+.list-header .feedback {
+    background-position: -90px -20px;
+}
+
+.list-header .insurance {
+    background-position: -162px -20px;
+}
+
+.list-header .contact {
+    background-position: -235px -20px;
+}
+
+.list-header .support {
+    background-position: -308px -20px;
+}
+
+.list-header .icon {
+    width: 35px;
+    height: 32px;
+    display: block;
+}
+
+.icon {
+    background: url("@/assets/icon.png") no-repeat;
+}
+
+.item .text {
+    font-size: 12px;
+    color: #ff9300;
+    width: calc(100% - 35px);
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.header-right {
+    width: 10%;
+}
+
+.header-right .item {
+    background: #ff9300;
+    border-radius: 15px;
+    height: 28px;
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header-right .item:first-child {
+    margin-bottom: 6px;
+}
+
+.header-menu {
+    background-color: #ff9300;
+    width: 230px;
+    position: relative;
+}
+
+.header-menu .title {
+    font-size: 16px;
+    color: #222;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.title .category {
+    width: 35px;
+    height: 32px;
+    display: block;
+    background-position: -304px -91px;
+}
+
+.title p {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 10px;
+    width: calc(100% - 35px);
+}
+
+.header-product-hot .item-hot {
+    padding: 0 20px;
+    font-size: 13px;
+    border-right: 1px solid #eee;
+    height: 20px;
+    position: relative;
+}
+
+.pulse-icon {
+    float: left;
+    position: absolute;
+    display: inline-block;
+    top: 3px;
+    left: 15px;
+}
+
+.pulse-icon .icon-swap {
+    width: 6px;
+    height: 6px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 6px;
+    color: #ff9300;
+    background: #ff9300;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.pulse-icon .elements {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.elements .pulse-1 {
+    border: solid 1px #ff9300;
+    width: 14px;
+    height: 14px;
+    top: -1px;
+    left: -1px;
+}
+
+.elements .pulse {
+    position: absolute;
+    -webkit-animation: pulse-wave 1s linear infinite both;
+    animation: pulse-wave 1s linear infinite both;
+    border-radius: 50%;
+}
+
+.item-hot .content {
+    padding-left: 20px;
+}
+
+@-webkit-keyframes pulse-wave{0%{opacity:0;-webkit-transform:scale(1);transform:scale(1);}
+    50%{opacity:1;-webkit-transform:scale(2);transform:scale(2);}
+    100%{opacity:0;-webkit-transform:scale(2.7);transform:scale(2.7);}
+}
+@keyframes pulse-wave{0%{opacity:0;-webkit-transform:scale(1);transform:scale(1);}
+    50%{opacity:1;-webkit-transform:scale(2);transform:scale(2);}
+    100%{opacity:0;-webkit-transform:scale(2.7);transform:scale(2.7);}
+}
+
+.header-menu .menu_holder {
+    position: absolute;
+    top: 43px;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    background: #fff;
+}
+
+.menu_holder .item {
+    height: calc(417px / 8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.menu_holder .item .item-category {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+    -webkit-box-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+
+.item-category .item-cate-left .img-cate {
+    width: 30px;
+    margin-right: 6px;
+    line-height: 10px;
+}
+
+.item-cate-left .img-cate img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-cate-left .cate-title {
+    width: calc(100% - 20px);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 15px;
+}
