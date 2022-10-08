@@ -15,13 +15,13 @@
 
 .carousel-control-prev {
     position: absolute;
-    top: 50%;
+    top: 50%!important;
     left: 10px!important;
     -webkit-transform: translate(0,-50%);
     transform: translate(0,-50%);
     background: rgba(255,255,255,0.3)!important;
     height: 80px;
-    width: 28px;
+    width: 28px!important;
     border-radius: 15px!important;
 }
 
@@ -34,13 +34,13 @@
 
 .carousel-control-next {
     position: absolute;
-    top: 50%;
-    right: 10px;
+    top: 50%!important;
+    right: 10px!important;
     -webkit-transform: translate(0,-50%);
     transform: translate(0,-50%);
     background: rgba(255,255,255,0.3)!important;
     height: 80px;
-    width: 28px;
+    width: 28px!important;
     border-radius: 15px!important;
 }
 
@@ -165,4 +165,3 @@
     width: 100%;
     height: auto;
 }
-
