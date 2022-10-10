@@ -148,7 +148,7 @@
     display: block;
     background: #ff9300;
     border-radius: 14px;
-    color: #fff;
+    color: #fff!important;
 }
 
 .homepage .banner-sale {
@@ -164,4 +164,9 @@
 .homepage .banner-sale .item img {
     width: 100%;
     height: auto;
+}
+
+.px-2 a img {
+  width: 100%;
+  height: auto;
 }

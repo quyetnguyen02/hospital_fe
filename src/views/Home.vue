@@ -1,5 +1,5 @@
 <template>
-  <Header/>
+  <Header />
   <div>
     <main>
       <div class="homepage">
@@ -89,7 +89,6 @@
                 </div>
               </div>
             </div>
-
           </div>
           <div class="banner-sale d-flex">
             <a href="" class="item">
@@ -106,18 +105,48 @@
       </div>
     </main>
   </div>
+  <ListProduct />
+  <ListProduct />
+  <ListProduct />
+  <ListProduct />
+  <ListCategory />
+  <div>
+    <div class="banner my-2">
+      <div class="container">
+        <div class="row">
+          <div class="col px-2">
+            <a href="">
+              <img src="https://laptop88.vn/media/banner/28_Octc43aa5ba121b7179915a43507c56c358.png" alt="">
+            </a>
+          </div>
+          <div class="col px-2">
+            <a href="">
+              <img src="https://laptop88.vn/media/banner/09_Octf3116b1dddf2daf8e613eb27d48c9594.jpg" alt="">
+            </a>
+          </div>
+          <div class="col px-2">
+            <a href="">
+              <img src="https://laptop88.vn/media/banner/10_Jund4fee968f48922cd5f683976339e68c9.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <Footer />
 </template>
-<script>
-import Header from "@/components/header/header.vue";
+<script setup>
+import { onMounted} from "vue";
+import Header from "@/components/header/Header.vue";
+import ListProduct from "@/components/products/ListProduct.vue";
+import ListCategory from "@/components/category/ListCategory.vue";
+import Footer from "@/components/footer/Footer.vue";
 import * as Bootstrap from 'bootstrap';
 import "@/assets/css/home.css";
 
-export default {
-  mounted(){
-    var myCarousel = document.querySelector('#myCarousel')
-    new Bootstrap.Carousel(myCarousel)
-  },
-
-  components: { Header },
-}
+onMounted(() => {
+  var myCarousel = document.querySelector('#myCarousel')
+  new Bootstrap.Carousel(myCarousel)
+})
 </script>

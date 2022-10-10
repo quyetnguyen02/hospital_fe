@@ -1,0 +1,20 @@
+.list-cate {
+  background: #fff;
+  padding: 45px 170px 0;
+  border-radius: 30px;
+}
+
+.list-cate .item-cate {
+  width: 110px;
+  text-align: center;
+  margin: 0 25px 30px;
+}
+
+.list-cate  .item-cate img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list-cate .item-cate .txt {
+  padding: 10px 0;
+}
