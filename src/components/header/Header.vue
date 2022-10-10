@@ -60,7 +60,7 @@
                   <p class="cate-title m-0">Laptop Mới</p>
                 </div>
                 <div class="item-cate-right">
-                  <i class="bi bi-caret-right-fill"></i>
+                  <CaretRight />
                 </div>
               </a>
             </div>
@@ -73,7 +73,7 @@
                   <p class="cate-title m-0">Laptop Mới</p>
                 </div>
                 <div class="item-cate-right">
-                  <i class="bi bi-caret-right-fill"></i>
+                  <CaretRight />
                 </div>
               </a>
             </div>
@@ -86,7 +86,7 @@
                   <p class="cate-title m-0">Laptop Mới</p>
                 </div>
                 <div class="item-cate-right">
-                  <i class="bi bi-caret-right-fill"></i>
+                  <CaretRight />
                 </div>
               </a>
             </div>
@@ -99,7 +99,7 @@
                   <p class="cate-title m-0">Laptop Mới</p>
                 </div>
                 <div class="item-cate-right">
-                  <i class="bi bi-caret-right-fill"></i>
+                  <CaretRight />
                 </div>
               </a>
             </div>
@@ -112,7 +112,7 @@
                   <p class="cate-title m-0">Laptop Mới</p>
                 </div>
                 <div class="item-cate-right">
-                  <i class="bi bi-caret-right-fill"></i>
+                  <CaretRight />
                 </div>
               </a>
             </div>
@@ -125,7 +125,7 @@
                   <p class="cate-title m-0">Laptop Mới</p>
                 </div>
                 <div class="item-cate-right">
-                  <i class="bi bi-caret-right-fill"></i>
+                  <CaretRight />
                 </div>
               </a>
             </div>
@@ -138,7 +138,7 @@
                   <p class="cate-title m-0">Laptop Mới</p>
                 </div>
                 <div class="item-cate-right">
-                  <i class="bi bi-caret-right-fill"></i>
+                  <CaretRight />
                 </div>
               </a>
             </div>
@@ -151,7 +151,7 @@
                   <p class="cate-title m-0">Laptop Mới</p>
                 </div>
                 <div class="item-cate-right">
-                  <i class="bi bi-caret-right-fill"></i>
+                  <CaretRight />
                 </div>
               </a>
             </div>
@@ -197,5 +197,7 @@
   </div>
 </template>
 <script setup>
-import "@/assets/css/header/header.css"
+import "@/assets/css/header/header.css";
+import CaretRight from "@/components/icon/CaretRight.vue";
+
 </script>
