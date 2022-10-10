@@ -239,6 +239,11 @@ a {
     border-bottom: 1px solid #f5f5f5;
 }
 
+.menu_holder .item:hover {
+  z-index: 1;
+  background: #ff9300;
+}
+
 .menu_holder .item .item-category {
     width: 100%;
     padding: 0 10px;
@@ -246,7 +251,6 @@ a {
     -webkit-box-pack: justify!important;
     justify-content: space-between!important;
 }
-
 
 .item-category .item-cate-left .img-cate {
     width: 30px;
