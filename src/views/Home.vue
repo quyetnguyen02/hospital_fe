@@ -89,7 +89,6 @@
                 </div>
               </div>
             </div>
-
           </div>
           <div class="banner-sale d-flex">
             <a href="" class="item">
@@ -135,12 +134,14 @@
 
     </div>
   </div>
+  <Footer />
 </template>
 <script setup>
 import { onMounted} from "vue";
 import Header from "@/components/header/Header.vue";
 import ListProduct from "@/components/products/ListProduct.vue";
 import ListCategory from "@/components/category/ListCategory.vue";
+import Footer from "@/components/footer/Footer.vue";
 import * as Bootstrap from 'bootstrap';
 import "@/assets/css/home.css";
 
